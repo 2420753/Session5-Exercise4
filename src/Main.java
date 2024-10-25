@@ -19,10 +19,6 @@ public class Main {
         userArray[0] = userArray[1];
         userArray[1] = tempValue;
 
-
-
-
-
         for (int i = 0; i < userArray.length; i++){
             if (i == 0) {
                 System.out.print("Swapping the numbers now.\n");
